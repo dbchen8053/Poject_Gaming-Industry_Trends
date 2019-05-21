@@ -1,4 +1,4 @@
-Project Proposal 
+**Project Proposal** 
 
 
 Objective- To study and visualize global trends in the video game industry with respect to the following-
