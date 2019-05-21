@@ -12,4 +12,9 @@ Gitbub Repository Link: https://github.com/dbchen8053/Project_Gaming_Industry_Tr
 
 Dataset:  https://www.kaggle.com/gregorut/videogamesales#vgsales.csv: 
 
+Example of video game sales dashboard:
 ![alt text](https://github.com/dbchen8053/Project_Gaming_Industry_Trends/blob/master/image/image_1.PNG)
+
+Other possible visualizations:
+![alt text](https://github.com/dbchen8053/Project_Gaming_Industry_Trends/blob/master/image/image_2.PNG)
+![alt text](https://github.com/dbchen8053/Project_Gaming_Industry_Trends/blob/master/image/image_3.PNG)
