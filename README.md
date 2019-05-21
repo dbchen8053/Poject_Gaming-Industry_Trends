@@ -11,3 +11,5 @@ Objective- To study and visualize global trends in the video game industry with 
 Gitbub Repository Link: https://github.com/dbchen8053/Project_Gaming_Industry_Trends
 
 Dataset:  https://www.kaggle.com/gregorut/videogamesales#vgsales.csv: 
+
+![alt text](https://github.com/dbchen8053/Project_Gaming_Industry_Trends/blob/master/image/image_1.PNG)
