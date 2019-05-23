@@ -1,7 +1,6 @@
 import numpy, pandas
 
 class project:
-    """ 'project' class """
     consoles  = ['2600', '3DO', 'DC', 'GC', 'GEN', 'N64',
                  'NES', 'NG', 'PCFX', 'PS', 'PS2', 'PS3',
                  'PS4', 'SAT', 'SCD', 'SNES', 'TG16', 'Wii',
@@ -11,7 +10,6 @@ class project:
     windows   = ['PC']
 
     def fill_missing_year(data_list):
-        """ Fill missing year data by using dictionary """
         data_list = [[int(float(i[0])), i[1]] for i in data_list]
         data_list = dict(data_list)
         for i in range(1980, 2017):
@@ -20,7 +18,6 @@ class project:
         return [j for j in [[i, data_list[i]] for i in sorted(data_list)] if j[0] < 2017 and j[0] >= 1980]
 
     def platform_convert(platform):
-        """ Returns a platform type of a single platform"""
         if platform in project.consoles:
             return 'Home Video Game Consoles'
         elif platform in project.handhelds:
@@ -30,7 +27,6 @@ class project:
         return None
 
     def platform_convert_df(df):
-        """ Returns a platform-converted data frame """
         for i in project.consoles:
             df.replace(i, 'Home Video Game Consoles', inplace=True)
         for i in project.handhelds:
